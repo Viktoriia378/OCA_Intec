@@ -1,0 +1,25 @@
+package equals;
+
+public class ExampleEquals {
+    public static void main(String[] args) {
+        String x = new String("Hello World");
+        String y = "Hello World";
+        System.out.println(x==y);//false
+        System.out.println(x.equals(y));
+
+        String x1 = "Hello World";
+        String z1 = " Hello World".trim();
+        System.out.println(x1==z1); //false
+
+        String x2 = "Hello World";
+        String z2 = " Hello World".trim();
+        System.out.println(x2.equals(z2)); // true
+
+        Integer num = 128;
+        int num2 = 128;
+        System.out.println(num == num2);
+        Double z = 10.0;
+        double zk = 10.0;
+        System.out.println(z == zk);
+    }
+}
