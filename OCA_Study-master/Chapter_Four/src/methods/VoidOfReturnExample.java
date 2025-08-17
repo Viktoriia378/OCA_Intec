@@ -7,4 +7,5 @@ public class VoidOfReturnExample {
     //public String walk4(){} does not compile
     //public walk5(){} does not compile
     //String walk6(int a) {if (a==4) return"";} does not compile
+    
 }
