@@ -27,4 +27,9 @@ public class WhileExample {
         System.out.println(sum);
     }
     }
+    /*
+    while(false)
+    int y = 3;
+    we can not declare a variable without braces
+     */
 

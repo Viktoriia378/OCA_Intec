@@ -33,5 +33,11 @@ public class DoWhileExample {
             result -= 2;
             } while(keepGoing);
         System.out.println(result);
+        System.out.println("--------");
+        int i1 = 0;
+        do {
+            System.out.println(i1);
+            i1++;
+        } while (i1 < 5);
     }
 }

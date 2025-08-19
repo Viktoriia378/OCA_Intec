@@ -13,10 +13,10 @@ public class SwitchExample {
              *    id = 5;
              *    break;
              */
-             case suffix: //final
-              id = 0;
-              break;
-             /* case lastName:
+            case suffix: //final
+                id = 0;
+                break;
+            /* case lastName:
              *      id = 8;
              *     break;
              *     parameter of method
@@ -33,5 +33,21 @@ public class SwitchExample {
         }
         return id;
 
+    }
+
+    public static void main(String[] args) {
+
+        long l = 10;
+        switch ((int) l) {
+            case 10:
+                break;
+        }
+        final int a = 10;
+        switch (a) {
+            case 10:
+                break;
+            case 20:
+                break;
+        }
     }
 }

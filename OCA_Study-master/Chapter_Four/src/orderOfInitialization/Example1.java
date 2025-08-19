@@ -1,6 +1,6 @@
 package orderOfInitialization;
 //1-superclass
-//2-static variable declaration and static initializers
+//2-static variable declaration and static initializers - outvoer 1 time
 //3-instance variable declaration and instance initializers
 //4-constructor
 public class Example1 {

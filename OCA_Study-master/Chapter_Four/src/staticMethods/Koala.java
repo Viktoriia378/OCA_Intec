@@ -2,7 +2,8 @@ package staticMethods;
  //we dont have to create object for static method or variable. we can use just class name
 public class Koala {
     public static int count = 0;
-    public static void setCount(){
+    public  static void setCount(){
+         int count = 1;
 
     }
      public static void main(String[] args) {

@@ -18,7 +18,7 @@ public class Example2 {
 
         //the whole loop will stop if we reached break of outer loop
         outerloop: for(int i2 = 0; i2 < 5; i2++){ //
-            for(int j2 = 0; j2 < 5; j2++){
+            inner: for(int j2 = 0; j2 < 5; j2++){
                 if (j2 == 2) break outerloop; // only outer loop
                 System.out.print(i2 + " " + j2);
             }

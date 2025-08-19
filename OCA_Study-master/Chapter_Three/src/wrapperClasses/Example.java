@@ -11,5 +11,14 @@ public class Example {
         //int bad1 = Integer.parseInt("a"); NumberFormatException
         //Integer bad2 = Integer.valueOf("123.45"); NumberFormatException
 
+        Integer a = 127;
+        Integer b = 127;
+        Integer c = 128;
+        Integer d = 128;
+
+        System.out.println(a==b);
+        System.out.println(c==d); //bcs 128 objects will change
+        System.out.println(c.equals(d));
+
     }
 }
