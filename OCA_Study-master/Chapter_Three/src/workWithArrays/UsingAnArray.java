@@ -8,7 +8,7 @@ public class UsingAnArray {
 
         int[] numbers = new int[10];
         for(int i = 0; i < numbers.length; i ++) {
-            numbers[i] = i + 5;
+            numbers[i] = i + 5; //start with 5 until 14
             System.out.println(numbers[i]);
         }
 

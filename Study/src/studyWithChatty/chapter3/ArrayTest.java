@@ -10,5 +10,8 @@ public class ArrayTest {
             System.out.println(s);
         }
         System.out.println(Arrays.toString(arr));
+
+        int[] nums = new int[3];
+        System.out.println(nums[3]);
     }
 }

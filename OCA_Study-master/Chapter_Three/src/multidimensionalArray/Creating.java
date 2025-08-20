@@ -7,5 +7,8 @@ public class Creating {
         int[] vars3[]; //2d
         int[] vars4 [], space [][]; // 2D AND 3D
         //page 173
+
+        int nums[] = new int[]{1, 2, 3};
+
     }
 }

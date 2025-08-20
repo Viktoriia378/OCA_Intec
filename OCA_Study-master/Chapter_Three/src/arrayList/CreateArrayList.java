@@ -8,7 +8,6 @@ public class CreateArrayList {
         ArrayList list1 = new ArrayList(); //default numbers of elements
         ArrayList list2 = new ArrayList(10); // specific numbers of slot
         ArrayList list3 = new ArrayList(list2); // a copy of another ArrayList
-
         //generics = allow specify the type of class that the arrayList will contain
 
         ArrayList<String> list4 = new ArrayList<String>();

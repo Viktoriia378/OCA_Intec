@@ -57,5 +57,6 @@ public class CreatingExample {
 
         System.out.println("Old way: ");
         Date d = new Date();
+
     }
 }

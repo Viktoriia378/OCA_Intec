@@ -16,5 +16,9 @@ public class UsingExample {
         b = b.append("f").append("g");
         System.out.println("a=" + a);
         System.out.println("b=" + b);
+
+        StringBuilder sb1 = new StringBuilder("Exam");
+        System.out.println(sb1.substring(1, 3));
+        System.out.println(sb1);
     }
 }

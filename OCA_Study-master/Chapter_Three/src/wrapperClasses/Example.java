@@ -7,6 +7,7 @@ public class Example {
         //Character class does not participate in the parse/valueOf; we can call charAt
         int primitive = Integer.parseInt("123"); //converts a String to an int primitive
         Integer wrapper = Integer.valueOf("123"); // String to an Integer wrapper class
+        System.out.println(wrapper.toString());
 
         //int bad1 = Integer.parseInt("a"); NumberFormatException
         //Integer bad2 = Integer.valueOf("123.45"); NumberFormatException

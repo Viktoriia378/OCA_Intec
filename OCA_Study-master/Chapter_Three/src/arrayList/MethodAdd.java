@@ -8,8 +8,10 @@ public class MethodAdd {
        //void add(int index, E element)
 
         ArrayList list = new ArrayList<>();
+        int b = 1;
         list.add("hawk");
         list.add(Boolean.TRUE);
+        list.add(b);
         System.out.println(list);
         //Type is object(does not include primitives)
 

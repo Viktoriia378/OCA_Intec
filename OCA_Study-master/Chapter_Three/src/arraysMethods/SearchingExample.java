@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class SearchingExample {
     public static void main(String[] args) {
         //works if array is already sorted
+        //Array.binarySearch(variable of array, index);
 
         int[]numbers = {2,4,6,8};
         System.out.println(Arrays.binarySearch(numbers, 2)); //0

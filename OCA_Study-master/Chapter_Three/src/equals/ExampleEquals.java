@@ -16,10 +16,10 @@ public class ExampleEquals {
         System.out.println(x2.equals(z2)); // true
 
         Integer num = 128;
-        int num2 = 128;
+        int num2 = 128; //Integer num 2 = 128; false
         System.out.println(num == num2);
         Double z = 10.0;
-        double zk = 10.0;
+        double zk = 10.0; //Double zk = 10.0; false
         System.out.println(z == zk);
     }
 }

@@ -5,9 +5,13 @@ import java.util.Arrays;
 public class ReferenceVariables {
     public static void main(String[] args) {
         String [] bugs = {"cricket", "beetle", "ladybug"};
+        String [] bebe = {"cricket", "beetle", "ladybug"};
         String[] alias = bugs;
-        System.out.println(bugs.equals(alias)); //true;  does not look at the elements of the array
+        System.out.println(bugs.equals(alias));//true;  does not look at the elements of the array
+        System.out.println(bebe.equals(bugs));
+        System.out.println(bugs == alias); //true
         System.out.println(Arrays.toString(bugs));
+
 
         String[] strings = {"stringValue"};
         Object[] objects = strings;

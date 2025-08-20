@@ -1,7 +1,5 @@
 package string_methods;
 
-import java.util.Locale;
-
 public class MethodChainingExample {
     public static void main(String[] args) {
         String start = "Animal   ";
