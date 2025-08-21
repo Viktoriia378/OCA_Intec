@@ -3,6 +3,7 @@ package passByValue;
 public class Number {
     public static void newNum(int num ){
         num = 8;
+        System.out.println(num);
     }
     public static void speak(String name){
         name = "Sparky";
