@@ -15,8 +15,11 @@ public class Sb {
 
         String a = new String("Hello"); // heap
         String b = "Hello";             // string pool
-        String c = a;          // points to pool version
+        String c = a;// points to pool version
+        String d = "Hello";
         System.out.println(a == c);
         System.out.println(b == c);
+        System.out.println(b==d);
+
     }
 }

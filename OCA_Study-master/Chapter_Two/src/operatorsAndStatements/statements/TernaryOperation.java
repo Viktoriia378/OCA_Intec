@@ -17,7 +17,7 @@ public class TernaryOperation {
 
         int a = 10;
         int b = (a<5) ? (2*a) : (3*a);
-
+        System.out.println(b);
         //int difTypes = (y < 91) ? 9 : "Horse"; does not compile
 
         System.out.println((y>5) ? 21 : "Zebra"); //but here it compiles

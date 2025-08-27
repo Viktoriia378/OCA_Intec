@@ -20,7 +20,7 @@ public class Example2 {
         outerloop: for(int i2 = 0; i2 < 5; i2++){ //
             inner: for(int j2 = 0; j2 < 5; j2++){
                 if (j2 == 2) break outerloop; // only outer loop
-                System.out.print(i2 + " " + j2);
+                System.out.print(i2 + " " + j2); // 00 01
             }
             System.out.println();
         }
