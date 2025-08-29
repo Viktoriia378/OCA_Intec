@@ -1,0 +1,25 @@
+package studyWithABook.objectOrientation;
+
+interface Pow{
+    static void wow(){
+        System.out.println("In Pow.wow");
+    }
+}
+abstract class Wow{
+    static void wow(){
+        System.out.println("In wow.wow");
+    }
+}
+public class Q16 extends Wow implements Pow{
+    public static void main(String[] args) {
+        Q16 f = new Q16();
+        f.wow();
+    }
+}
+/*
+Observe that f is reference variable of type Powwow.
+Since Powwow extends Wow, Powwow inherits the static method wow() from Wow.
+Java allows a static method of a class to be invoked using a reference variable and so f.wow() invoke's Wow's wow().
+Static methods of a interface are not inherited in the same way by an implementing class.
+Therefore, the static method wow() defined in the interface Pow, cannot be accessed through a reference variable. It can only be accessed using the name of the interface i.e. using Pow.wow().
+ */

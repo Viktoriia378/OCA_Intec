@@ -1,0 +1,29 @@
+package studyWithABook.operators;
+
+public class Q8 {
+    /*
+   You are writing a piece of code that determines tax rate on a given grossIncome. The tax rate is to be computed as follows -
+   If grossIncome is less than or equals to 18000, taxRate is 0.
+   If grossIncome is more than 18000 but less than or equal to 36000, taxRate is 10%
+   If grossIncome is more than 36000, taxRate is 20%.
+1:double taxRate = grossIncome<=18000 ? 0 : (grossIncome<=36000) ? .1 : .2;
+2:double taxRate = .2;
+taxRate = grossIncome<=18000?0:.1;
+taxRate = grossIncome<=36000?.1:.2;
+It will assign .1 to taxRate even if grossIncome is less than 18000.
+3:double taxRate = 0;
+if(grossIncome>36000) taxRate = .20;
+if(grossIncome>18000 && grossIncome<=36000) taxRate = .10;
+4:double taxRate = .2;
+if(grossIncome>36000) {
+   taxRate = .2;
+}else taxRate = 0;
+if(grossIncome>18000 ) {
+   taxRate = .1;
+}
+This will assign .1 to taxRate even if grossIncome is greater than 36000.
+5:double taxRate = 0;
+taxRate = grossIncome>18000?grossIncome<=36000?.1:.2:0;
+
+     */
+}
