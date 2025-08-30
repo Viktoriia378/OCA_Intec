@@ -18,5 +18,6 @@ public class Q9 {
     public static void main(String[] args) {
         Q9 ct = new Q9();
         System.out.print(ct.parse("333"));
+        //ct.parse("abc"); NumberFormatException -> Integer.parseInt("abc");
     }
     }
