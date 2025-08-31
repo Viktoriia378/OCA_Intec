@@ -11,3 +11,7 @@ public class Q4 {
         }
     }
 }
+/*
+The program will compile without error and will print java.lang.NullPointerException when run.
+A NullPointerException will be thrown if the expression given to the throw statement results in a null pointer.
+ */

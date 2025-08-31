@@ -15,4 +15,4 @@ public class Q5 {
         System.out.print("out ");
     }
     public static void amethod(){ }
-}
+}//Since the method amethod() does not throw any exception, try is printed and the control goes to finally which prints finally. After that out is printed.
