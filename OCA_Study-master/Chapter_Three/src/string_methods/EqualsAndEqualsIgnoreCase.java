@@ -8,6 +8,5 @@ public class EqualsAndEqualsIgnoreCase {
         System.out.println("abs".equals("ABS"));
         System.out.println("ABC".equals("ABC"));
         System.out.println("ABC".equalsIgnoreCase("abc"));
-
     }
 }

@@ -16,7 +16,7 @@ public class IfExample {
         //if(x = 5)  does not compile
         int x = 4;
         long y = x * 4 - x++;
-        if (y<10) System.out.println("Too Low");
+        if (y<10);
         else System.out.println("Just Right");
         }
     }

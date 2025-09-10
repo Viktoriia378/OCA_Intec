@@ -8,7 +8,7 @@ public class MethodContains {
 
       List<String> birds = new ArrayList<>();
       birds.add("hawk");
-        System.out.println(birds.contains("hawk"));
+        System.out.println(birds.contains(1));
         System.out.println(birds.contains("robin"));
 
         //the method calls equals(); String implements equals()

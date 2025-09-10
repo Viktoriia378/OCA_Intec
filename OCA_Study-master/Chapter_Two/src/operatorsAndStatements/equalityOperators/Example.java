@@ -19,6 +19,8 @@ public class Example {
         String a = new String("bebe");
         String b = new String("bebe");
         String c = a;
+        int bb = 5;
+        System.out.println(a.equals(bb));
         System.out.println(a == b); //false
         System.out.println(a == c); // true point to the same object
         System.out.println(a.equals(b)); // true bcs the same txt

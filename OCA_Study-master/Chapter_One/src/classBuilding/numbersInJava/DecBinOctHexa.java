@@ -12,12 +12,13 @@ public class DecBinOctHexa {
         char y4 = 0b10010;
         byte y5 = 0b1010;
         short y6 = 0b101010;
-        //octal: 0-7; 8; without punt
+        //octal: 0-7; 8; without punt for int byte short
         int a = 017;
-        double a1 = 0.125;
+        double a1 = 012.5;
         float a2 = 0.145f;
         //hexadecimal - 0x or 0X; A-F(10-15); 16
-        int b = 0xA1F;
-        double b1 = 0X123;
+        // if we wan to use punt here we have to ad 'p'
+        int b = 0xA1FFF;
+        double b1 = 0X12.3p546;
     }
 }

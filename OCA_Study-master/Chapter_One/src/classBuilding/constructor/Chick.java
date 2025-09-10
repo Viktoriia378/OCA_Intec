@@ -10,7 +10,6 @@ public class Chick {
         System.out.println("I am a constructor and i ll change name to: ");
     }
     public void Chick(){
-
     }
 
     public static void main(String[] args) {

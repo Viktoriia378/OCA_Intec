@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Q4 {
     int value;
-
     Q4(int value) {
         this.value = value;
     }

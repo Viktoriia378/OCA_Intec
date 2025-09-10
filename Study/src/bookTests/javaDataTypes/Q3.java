@@ -13,6 +13,9 @@ public class Q3 {
         boolean b2 = Boolean.parseBoolean("TRUE");  // true
         boolean b3 = Boolean.parseBoolean("TrUe");  // true
         boolean b4 = Boolean.parseBoolean(" false "); // false (!!)
-        boolean b5 = Boolean.parseBoolean("yes");  // false
+        boolean b5 = Boolean.parseBoolean("yes");// false
+        //Boolean.parseBoolean("TrUe") == new Boolean(null) // false
+
+        //new Boolean() == false does not compile bcs wrapper classes do not have constructors
     }
 }

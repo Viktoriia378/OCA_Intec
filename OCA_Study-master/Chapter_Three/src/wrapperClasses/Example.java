@@ -5,6 +5,13 @@ public class Example {
         //parseInt() - return a primitive
         //valueOf() - return a wrapper class
         //Character class does not participate in the parse/valueOf; we can call charAt
+        String txt = "102";
+        long ltxt = Long.parseLong(txt);
+        System.out.println(ltxt);
+
+
+
+
         int primitive = Integer.parseInt("123"); //converts a String to an int primitive
         Integer wrapper = Integer.valueOf("123"); // String to an Integer wrapper class
         System.out.println(wrapper.toString());

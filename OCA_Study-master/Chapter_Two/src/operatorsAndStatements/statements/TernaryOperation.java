@@ -4,7 +4,7 @@ public class TernaryOperation {
     public static void main(String[] args) {
         //booleanExpression ? expression1 : expression2
         int x2 = 5;
-        System.out.println(x2 >2 ? x2 < 4 ? 10 : 8 : 7);
+        System.out.println(x2 < 4 ? x2 > 2? 10 : 8 : 7);
 
 
         int y = 10;
@@ -14,6 +14,7 @@ public class TernaryOperation {
         } else {
             x = 3 * y;
         }
+        System.out.println(x);
 
         int a = 10;
         int b = (a<5) ? (2*a) : (3*a);

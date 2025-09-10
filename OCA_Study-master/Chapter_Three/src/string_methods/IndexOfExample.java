@@ -13,6 +13,5 @@ public class IndexOfExample {
         System.out.println(string.indexOf("al")); //4
         System.out.println(string.indexOf('a', 4));//4
         System.out.println(string.indexOf("al", 5));//-1 does not throw exception
-
     }
 }

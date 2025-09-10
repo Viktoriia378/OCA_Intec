@@ -7,12 +7,15 @@ public class ExampleOfAutoboxing {
         List<Double> weights = new ArrayList<>();
         weights.add(50.5);
         //weights.add(new Double(60));//60.0 autoboxing
+        weights.add(Double.parseDouble("60"));
         weights.add(Double.valueOf(60));
         weights.remove(50.5);
         double first = weights.get(0);
         System.out.println(first);
+        System.out.println(weights.size());
 
         List<Integer> heights = new ArrayList<>();
+        heights.add(null);
         heights.add(null);
         //int h = heights.get(0); //NullPointerException
 
@@ -22,8 +25,9 @@ public class ExampleOfAutoboxing {
         numbers.remove(1);
         System.out.println(numbers); // 1
         //numbers.remove(new Integer(2));
-        numbers.remove(Integer.valueOf(2));
-
+        numbers.remove(Integer.valueOf(1));
+        System.out.println(numbers);
+        
         List<Integer> list = new ArrayList<>();
         list.add(10);
         list.add(20);
