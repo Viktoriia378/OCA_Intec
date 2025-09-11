@@ -12,6 +12,5 @@ public void addUsage(int bytesUsed){
        totalUsage = totalUsage + bytesUsed;
        totalBill = totalBill + bytesUsed*costPerByte;
     }
-}
-     */
+}     */
 }
