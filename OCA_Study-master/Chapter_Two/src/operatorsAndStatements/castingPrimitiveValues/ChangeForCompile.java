@@ -23,5 +23,23 @@ public class ChangeForCompile {
         byte sum = (byte) (a + b);
         System.out.println(sum);
 
+        //Выражение с операцией:
+
+        final int numInt = 50;
+        final int numInt2 = 70;
+
+        byte c = numInt + numInt2; // OK: результат — константа 120, помещается в byte without final does not compile
+        /*
+        x и y — final, то есть их значения известны на этапе компиляции,
+        x + y = 120 — compile-time constant,
+        120 входит в диапазон byte → приведение не нужно.
+         */
+
+        /*
+        Note that implict narrowing conversion (i.e. conversion without an explicit cast)
+        does not apply to float, long, or double.
+        For example, char ch = 30L;
+        will fail to compile although 30 is small enough to fit into a char.
+         */
     }
 }
