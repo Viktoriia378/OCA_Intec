@@ -35,14 +35,15 @@ public class Example {
         Integer num = Integer.valueOf(1);
         Long num2 = Long.valueOf(1);
         System.out.println(num2.equals(num)); //always false
+        //System.out.println(num == num2); does not compile
 
         //equals
         Integer numWrapper = 2;
         Integer numWrapper2 = 2;
         int numPrem = 2;
         long numPrem2 = 2;
-        System.out.println(num2.equals(numPrem)); //false if we check wrapper classes with primitive data types
-        System.out.println(numWrapper2.equals(numWrapper2)); //true for the same Wrapper classes but will be always false for dif wrap classes
+        System.out.println(numWrapper.equals(numPrem2));
+        System.out.println(numWrapper2.equals(numWrapper)); //true for the same Wrapper classes but will be always false for dif wrap classes
 
         /*Signature of equals method is : boolean equals(Object o); So it can take any object.
         The equals methods of all wrapper classes first check if the two object are of same class or not.

@@ -54,9 +54,10 @@ It is never bound to probe(Long ) because int is not compatible with Long.
 
 We advise you to run this program and try out various combinations.
 The exam has questions on this pattern but they are not this tough. If you have a basic understanding, you should be ok.
-You have selected too many options.
+
 The correct answers are:
 In Integer and In long,
+
 
 It will not compile, if //1, //2, and //3 are commented out.
  */

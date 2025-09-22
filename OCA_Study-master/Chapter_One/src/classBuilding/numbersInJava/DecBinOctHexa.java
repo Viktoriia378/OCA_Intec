@@ -17,8 +17,10 @@ public class DecBinOctHexa {
         double a1 = 012.5;
         float a2 = 0.145f;
         //hexadecimal - 0x or 0X; A-F(10-15); 16
-        // if we wan to use punt here we have to ad 'p'
-        int b = 0xA1FFF;
+        // if we want to use punt here - we have to add 'p'
+        int b = 0xA1F_FF;
         double b1 = 0X12.3p546;
+
+        double d = 43e1;
     }
 }
